@@ -3,7 +3,8 @@
 }
 body {
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/5/53/Maroon_Bells_%2811553%29a.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original) ;
-    background-size: 1920px 720px;
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
     color: black;
     padding: 10px;
     font-family: comic;
