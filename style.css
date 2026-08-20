@@ -14,7 +14,7 @@ body {
     #262626
   );
   background-size: 400% 400%;
-  animation: moving-background 16s ease infinite;
+  animation: moving-background 24s linear infinite alternate;
 
   color: black;
   padding: 10px;
@@ -23,16 +23,12 @@ body {
 }
 
 @keyframes moving-background {
-  0% {
+  from {
     background-position: 0% 50%;
   }
 
-  50% {
+  to {
     background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
   }
 }
 
