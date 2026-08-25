@@ -64,7 +64,16 @@ h1 {
 
 .nav-li {
   display: inline-block;
-  padding: 0 10px;
+  background-color: #575b5e;
+  padding: 10px 20px;
+  margin: 2px;
+  border: #575b5e;
+  border-radius: 8px;
+  border-style: double;
+}
+
+.nav-li:hover {
+    background-color: white;
 }
 
 a {
@@ -107,19 +116,4 @@ main {
 h2,
 h3 {
   margin: 0px;
-}
-
-
-.nav-li {
-  display: inline-block;
-  background-color: #575b5e;
-  padding: 10px 20px;
-  margin: 2px;
-  border: #575b5e;
-  border-radius: 8px;
-  border-style: double;
-}
-    
-.nav-li:hover {
-    background-color: white;
 }
