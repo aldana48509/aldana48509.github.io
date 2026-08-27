@@ -97,7 +97,7 @@ let animationDetails = {};
 
 var collectableList = {
   database: { image: "images/collectables/database.png" },
-  diamond: { image: "images/collectables/diamond-head.png" },
+  diamond: { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9JLKYHoRMAGDmRDxwkTNNY-BH8SiX6MMjPZFB7_twEIPDw1J2aq76vMs&s=10" },
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
